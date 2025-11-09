@@ -1,0 +1,39 @@
+{
+  "name": "init",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/ChAsif171/realtime-task-timer-backend#readme",
+  "bugs": {
+    "url": "https://github.com/ChAsif171/realtime-task-timer-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChAsif171/realtime-task-timer-backend.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-mongo-sanitize": "^2.2.0",
+    "helmet": "^8.1.0",
+    "joi": "^18.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.3",
+    "morgan": "^1.10.1",
+    "nodemailer": "^7.0.10",
+    "nodemon": "^3.1.10",
+    "socket.io": "^4.8.1",
+    "winston": "^3.18.3"
+  }
+}
